@@ -27,35 +27,37 @@ footer links grey: #454245
         justify-content: space-between;
         background-color: #540B51;
         align-items: center;
-        height: 120px;
+        height: 20%;
     }
 
     .nav-icons{
         display: flex; 
-        padding: 10px;
+        padding: 5%;
         align-items: flex-end;
         align-items: center;
-        margin-right: 50px;
+        margin-right: 5%;
     }
 
 
     .slack-logo {
-        width: 150px;
-        margin-left:50px;
-        margin-top: 20px;
+        width: 50%;
+        margin-left:10%;
+        margin-top: 10%;
     }  
 
     #search-icon {
-        width: 35px;
+        width: 6vw;
         height: auto;
         margin-right: 10px;
         margin-top: 20px;
+        padding-right: 5%;
     }
 
     #hamburger-menu{
         display: block;
-        width:30px;
+        width: 6vw;
         margin-top: 20px;
+        padding-left: 15%;
     }
 
     nav ul  {
@@ -92,7 +94,8 @@ footer links grey: #454245
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 300px;
+        height: 40%;
+        padding-bottom: 10%;
     
     }
 
@@ -107,20 +110,20 @@ footer links grey: #454245
         .my-button{
             border-radius: 10px;
             border: none;
-            height: 100px;
+            height: 13.5vw;
             width: 90vw;
             font-size: 2.1em;
             font-weight: bold;
             color: #540B51;
             cursor: pointer;
-            margin-top: 20px;
+            margin-top: 1.5%;
             align-items: center;
         }
 
         button.my-button img {
-            width: 40px;     
+            width: 6vw;     
              float: left;    
-          margin-left: 40px;
+          margin-left: 5%;
           align-items: center;
         
         
@@ -173,8 +176,6 @@ footer links grey: #454245
     img[src="./images/connectedness-mobile.png"] {
         max-width: 110%;
       
-    
-    
      }
 
     .container4,
@@ -357,10 +358,10 @@ padding-top: 25px;
 img[src="./images/iso-slack.png"] {
     max-width: 10%;
     border-radius: 0%;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     
 
 }
@@ -386,7 +387,7 @@ img[src="./images/iso-slack.png"] {
 
 .list-heading {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
 
  }
 
@@ -398,5 +399,446 @@ img[src="./images/iso-slack.png"] {
     padding-top: 10%;
     padding-bottom: 10%;
 }
+
+.list-container-5 {
+    list-style-type: none;
+    font-weight: bold;
+    
+}
+
+.list-container-6 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.list-container-6 {
+    font-size: 2rem;
+}
+
+
+
+}
+
+
+/* Iteration 2 Mobiles Screens (width >768px and width <1024px) */
+
+
+@media (max-width: 1024px) {
+
+
+body {
+    background-color: #540B51;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    width: 100vw;
+    display: flex; 
+    justify-content: space-between;
+    background-color: #540B51;
+    align-items: center;
+    height: 20%;
+}
+
+.nav-icons{
+    display: flex; 
+    padding: 5%;
+    align-items: flex-end;
+    align-items: center;
+    margin-right: 5%;
+}
+
+
+.slack-logo {
+    width: 50%;
+    margin-left:10%;
+    margin-top: 10%;
+}  
+
+#search-icon {
+    width: 6vw;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-right: 5%;
+}
+
+#hamburger-menu{
+    display: block;
+    width: 6vw;
+    margin-top: 20px;
+    padding-left: 15%;
+}
+
+nav ul  {
+    display: none;
+}
+
+.container2{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .container2 h1{
+    display: flex; 
+        font-size: 4.5em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+ .container2 p {
+   display: flex; 
+   font-size: 2.1em;
+   text-align: center;
+   color: white;
+ }
+
+
+.button-container{
+    display: flex; 
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    padding-bottom: 10%;
+
+}
+
+.buttons {
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .my-button{
+        border-radius: 10px;
+        border: none;
+        height: 13.5vw;
+        width: 90vw;
+        font-size: 2.1em;
+        font-weight: bold;
+        color: #540B51;
+        cursor: pointer;
+        margin-top: 1.5%;
+        align-items: center;
+    }
+
+    button.my-button img {
+        width: 6vw;     
+         float: left;    
+      margin-left: 5%;
+      align-items: center;
+    
+    
+    }
+
+
+img[src="./images/hero-product-ui.png"] {
+max-width: 150%;
+padding-bottom: 20px;
+
+}
+
+.container3{
+     background-color: #F3EAE2;
+     width: 100vw; 
+     padding-top: 35px;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 1.3em;
+     color: black;
+     font-weight: bold;
+    
+}   
+
+.logos-container {
+display: flex; 
+flex-direction: row ;
+background-color: #F3EAE2;
+justify-content: space-evenly;
+width: 100vw; 
+
+}
+
+
+.logos-container img {
+       max-height: 65px;
+       width: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom:50px;
+        border: none;
+    
+    
+
+   
+}
+
+
+img[src="./images/connectedness-mobile.png"] {
+    max-width: 110%;
+  
+ }
+
+.container4,
+.container5  {
+    background-color: #F3EAE2;
+    width: 100vw; 
+    height: 500px;
+    display: flex;
+    margin-top: 20px;
+    text-align: left;
+    
+
+}
+
+.container4 h2, 
+.container5 h2  {
+    font-size: 3.2em;
+    color: black;
+    font-weight:bold;
+    font-family: 'Arial', sans-serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+} 
+
+.container4 p,
+.container5 p {
+    font-size: 2em;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vw;
+    
+} 
+
+.container4 a span,
+.container5 a span  {
+    font-size: 2em;
+    margin-left: 5vw;
+    color: #2E71A6;
+    font-weight:bold;
+}
+
+
+img[src="./images/flexibility-mobile.png"] {
+    max-width: 110%;
+    border-radius: 0%;
+    border-color: #F3EAE2;
+
+}
+
+img[src="./images/speed-mobile.png"] {
+max-width: 110%;
+border-radius: 0%;
+border-color: #F3EAE2;
+
+}
+
+
+.container6 {
+background-color: white;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 30px; 
+max-width: 110vw;   
+padding-bottom: 50px;
+
+
+}
+
+
+.container6 h3 {
+display: flex; 
+font-size: 3.5em;
+color: black;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+
+.container6 p {
+display: flex; 
+font-size: 2em;
+color: #000000;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+
+.container6 button {
+border-radius: 10px;
+height: 100px;
+width: 90vw;
+font-size: 2.1em;
+font-weight: bold;
+color: #540B51;
+cursor: pointer;
+margin-top: 20px;
+align-items: center;
+background-color: white;
+border: 2px solid #540B51; 
+}
+
+
+.container7 {
+background-color: white;
+padding-bottom: 50px;
+margin-top: 0px;
+
+}
+
+.container7 ul {
+list-style-type: none;
+padding-top: 25px;
+}
+
+.container7 span {
+display: inline-flex; 
+width: 100%; 
+justify-content: center; 
+font-size: 2em;  
+align-items: center;
+text-align: center;
+font-weight: bold;
+color: #540B51;
+}
+
+.container7 p{
+font-size: 1.5em;
+font-weight: bold;
+align-items: center;
+text-align: center;
+font-weight: bold;
+padding-right: 250px;
+padding-left: 250px;
+}
+
+.container8 {
+display:flex;
+width: 100%; 
+justify-content: center;  
+align-items: center;
+text-align: center;
+padding-bottom: 50px;
+
+}
+
+.container8 h3{
+display: flex; 
+font-size: 3.5em;
+color: white;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+
+.container8 button {
+border-radius: 10px;
+height: 100px;
+width: 90vw;
+font-size: 2.1em;
+font-weight: bold;
+color: #540B51;
+cursor: pointer;
+margin-top: 20px;
+align-items: center;
+background-color: white;
+border: 2px solid #540B51; 
+
+}
+
+.footer-container{
+background-color: white;
+
+}
+
+
+img[src="./images/iso-slack.png"] {
+max-width: 10%;
+border-radius: 0%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;
+margin-bottom: 5%;
+
+
+}
+
+.list-container {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-right: 10%;
+  
+}
+
+.list-container-1,
+.list-container-2,
+.list-container-3,
+.list-container-4{
+width:10%;
+list-style-type: none;
+
+}
+
+.list-heading {
+font-weight: bold;
+font-size: 1.5em;
+
+}
+
+
+.list-container-1 li,
+.list-container-2 li,
+.list-container-3 li,
+.list-container-4 li {
+padding-top: 10%;
+padding-bottom: 10%;
+}
+
+.list-container-5 {
+list-style-type: none;
+font-weight: bold;
+
+}
+
+.list-container-6 {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+margin-right: 10%;
+margin-left: 10%;
+align-items: center;
+text-align: center;
+
+}
+
+.list-container-6 {
+font-size: 2rem;
+}
+
+
 
 }
