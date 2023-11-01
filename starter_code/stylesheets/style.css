@@ -10,7 +10,9 @@ footer links grey: #454245
 */
 
 
-
+.element {
+    all: none;
+  }
 
 /* Iteration 1 Mobiles Screens (width <768px) */
 
@@ -429,7 +431,7 @@ img[src="./images/iso-slack.png"] {
 /* Iteration 2 Mobiles Screens (width >768px and width <1024px) */
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
 
 
 body {
@@ -482,17 +484,17 @@ nav ul  {
 
 .container2{
     display: flex; 
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items:left;
+    width: 50vw;
+
 }
 
  .container2 h1{
     display: flex; 
-        font-size: 4.5em;
+        font-size: 5em;
         justify-content: center;
-        align-items: center;
-        text-align: center;
+        text-align: left;
         color: white;
         padding-left: 5vw;
         padding-right: 5vw;
@@ -501,18 +503,18 @@ nav ul  {
  .container2 p {
    display: flex; 
    font-size: 2.1em;
-   text-align: center;
+   text-align: left;
    color: white;
+   margin-left:10%;
  }
 
 
 .button-container{
+    width: 50vw;
     display: flex; 
-    justify-content: space-between;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    height: 40%;
+    align-items: left;
+    height: 20%;
     padding-bottom: 10%;
 
 }
@@ -528,14 +530,15 @@ nav ul  {
     .my-button{
         border-radius: 10px;
         border: none;
-        height: 13.5vw;
-        width: 90vw;
-        font-size: 2.1em;
+        height: 10vw;
+        width: 100%;
+        font-size: 1.5em;
         font-weight: bold;
         color: #540B51;
         cursor: pointer;
         margin-top: 1.5%;
-        align-items: center;
+        text-align: center;
+        
     }
 
     button.my-button img {
@@ -842,3 +845,4 @@ font-size: 2rem;
 
 
 }
+
